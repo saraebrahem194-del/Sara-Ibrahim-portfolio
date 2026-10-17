@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara.dev</title>
+    <meta name="description" content="Sara is a Business Information Systems student and fullstack developer who turns complex workflows into clear, useful digital spaces." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Sara | Fullstack Developer" />
+    <meta property="og:description" content="Thoughtful fullstack work, built with care." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sara | Fullstack Developer" />
+    <meta name="twitter:description" content="Thoughtful fullstack work, built with care." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23348673'/%3E%3Ctext x='20' y='26' text-anchor='middle' font-family='Arial' font-size='17' fill='white'%3ES%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="paper-noise">
+      <header class="site-header">
+        <div class="header-inner">
+          <a class="brand" href="#top" aria-label="Sara home">
+            <span class="brand-mark">S</span>
+            <span class="brand-name">SARA / DEV</span>
+          </a>
+          <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a class="nav-hello" href="mailto:saraebrahem194@gmail.com"><span class="icon" data-icon="mail"></span> Say hello</a>
+          </nav>
+          <div class="header-actions">
+            <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme" data-icon="moon"></button>
+            <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav" data-icon="menu"></button>
+          </div>
+        </div>
+        <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero notebook-grid">
+          <div class="hero-inner page-width">
+            <div class="hero-copy">
+              <div class="availability reveal"><span class="availability-dot"></span>Available for thoughtful work.</div>
+              <h1 class="hero-title reveal reveal-delay-1">Software with <em>purpose</em>, built to belong.</h1>
+              <p class="hero-description reveal reveal-delay-2">Hi, I’m Sara <br> A Business Information Systems student and fullstack developer. I turn complex workflows into clear, useful digital spaces.</p>
+              <div class="hero-actions reveal reveal-delay-3">
+                <a class="button button-primary" href="#work">See my work <span class="icon" data-icon="arrow-down"></span></a>
+                <a class="button button-outline" href="#contact">Let’s talk <span class="icon" data-icon="arrow-up-right"></span></a>
+              </div>
+            </div>
+            <div class="readme-card reveal reveal-delay-4">
+              <div class="readme-meta"><span>readme.md</span><span>01—24</span></div>
+              <div class="code-sample" aria-label="A short profile in code">
+                <div><span class="code-accent">const</span> <span class="code-name">sara</span> = {</div>
+                <div class="code-indent">focus: <span class="code-value">“clean interfaces”</span>,</div>
+                <div class="code-indent">method: <span class="code-value">“curiosity + discipline”</span>,</div>
+                <div class="code-indent">status: <span class="code-value">“ready to build”</span></div>
+                <div>}</div>
+                <div class="code-cursor">▋</div>
+              </div>
+              <div class="readme-location"><span>Currently in</span><span class="location-name">Asyut, EG</span></div>
+            </div>
+          </div>
+          <div class="scroll-cue">Scroll to explore ↓</div>
+        </section>
+
+        <section class="work-section page-width section-space" id="work">
+          <div class="section-label"><span>01</span><span class="label-rule"></span> Selected work</div>
+          <div class="work-heading">
+            <div>
+              <h2>Things I’ve <em>made</em>.</h2>
+              <p>A few things I've built on my way to becoming a developer, Each one started as an idea and ended as a lesson.</p>
+            </div>
+            <div class="project-filters" role="group" aria-label="Filter projects"></div>
+          </div>
+          <div class="project-grid" aria-live="polite"></div>
+          
+        </section>
+
+        <section class="toolkit-section">
+          <div class="toolkit-inner page-width">
+            <div class="toolkit-intro">
+              <div class="section-label"><span>02</span><span class="label-rule"></span> The toolkit</div>
+              <h2>Built with <em>care</em>, not shortcuts.</h2>
+              <p>I like understanding the whole shape of a problem, from the data model to the last quiet pixel.</p>
+            </div>
+            <div class="toolkit-grid"></div>
+          </div>
+        </section>
+
+        <section class="about-section page-width section-space" id="about">
+          <div class="about-grid">
+            <div class="about-intro">
+              <div class="section-label"><span>03</span><span class="label-rule"></span> A bit about me</div>
+              <h2>Part developer,<br /><em>part builder.</em></h2>
+              <p>The interesting work lives between disciplines. I’m drawn to the moment a messy business question becomes a shared technical direction.</p>
+              <div class="social-links">
+                <a href="https://github.com/saraebrahem194-del" target="_blank" rel="noreferrer" aria-label="Sara on GitHub"><span class="icon" data-icon="github"></span></a>
+                <a href="https://linkedin.com/in/sara-ibrahem-b51813341" target="_blank" rel="noreferrer" aria-label="Sara on LinkedIn"><span class="icon" data-icon="linkedin"></span></a>
+                <a href="mailto:saraebrahem194@gmail.com" aria-label="Email Sara"><span class="icon" data-icon="mail"></span></a>
+              </div>
+            </div>
+            <div class="timeline"></div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="contact-inner page-width">
+            <div class="contact-intro">
+              <div class="section-label"><span>04</span><span class="label-rule"></span> Get in touch</div>
+              <h2>Have a <br /><em>question?</em></h2>
+              <p>The best collaborations start with a curious message and end with work worth remembering. Tell me what you have in mind.</p>
+              <div class="contact-time"><span class="icon" data-icon="globe"></span> UTC+2 · usually replies in a day</div>
+            </div>
+            <form class="contact-form" novalidate>
+              <div class="form-row">
+                <label>Your name<input name="name" type="text" autocomplete="name" placeholder="How should I call you?" /></label>
+                <label>Your email<input name="email" type="email" autocomplete="email" placeholder="you@gmail.com" /></label>
+              </div>
+              <label class="message-label">A little context<textarea name="message" rows="5" placeholder="What are you working on?"></textarea></label>
+              <p class="form-feedback" role="status" aria-live="polite" hidden></p>
+              <button class="button button-light" type="submit">Send note <span class="icon" data-icon="send"></span></button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner page-width">
+          <span class="copyright">© <span id="year"></span> Sara. Made with patience.</span>
+          <div class="footer-links">
+            <a href="https://github.com/saraebrahem194-del" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/sara-ibrahem-b51813341" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="back-to-top" href="#top">Back to top <span class="icon" data-icon="arrow-up-right"></span></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <a class="floating-top" href="#top" aria-label="Back to top"><span class="icon" data-icon="arrow-up"></span></a>
+    <div class="modal-backdrop" hidden>
+      <article class="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-heading">
+          <div><div class="modal-kicker"></div><h2 id="modal-title"></h2></div>
+          <button class="icon-button modal-close" type="button" aria-label="Close project details"><span class="icon" data-icon="close"></span></button>
+        </div>
+        <p class="modal-detail"></p>
+        <div class="modal-tags"></div>
+        <a href="https://saraebrahem194-del.github.io/Green-oasis/" id="modal-project-link" class="project-link" target="_blank" style="display:none; margin-top: 15px;">View Live Project →</a>
+        <div class="modal-bottom">
+          <div><div class="modal-metric"></div><div class="modal-metric-label"></div></div>
+          <button class="modal-close-text" type="button">Close details <span class="icon" data-icon="chevron-right"></span></button>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
+  </body>
+</html>
